@@ -37,10 +37,10 @@ public class PatientRepositoryTest {
 	 * patientRepository.findById((long) 1).get();
 	 * Assertions.assertThat(patient.getPatientId()).isEqualTo(1); }
 	 */
-	@Test
-	public void getAllPatientsTest() {
-		List<Patient> patient= patientRepository.findAll();
-		Assertions.assertThat(patient.size()).isGreaterThan(0);
-	}
+	/*
+	 * @Test public void getAllPatientsTest() { List<Patient> patient=
+	 * patientRepository.findAll();
+	 * Assertions.assertThat(patient.size()).isGreaterThan(0); }
+	 */
 	
 }
